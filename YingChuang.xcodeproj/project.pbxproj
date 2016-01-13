@@ -271,6 +271,7 @@
 				TargetAttributes = {
 					5DCF67091C453BC300AA68FD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BJ5E9LM7YU;
 					};
 					5DCF67221C453BC300AA68FD = {
 						CreatedOnToolsVersion = 7.2;
@@ -485,11 +486,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou KuGou Technology CO. , LTD/";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangzhou KuGou Technology CO. , LTD/";
 				INFOPLIST_FILE = YingChuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YZX.YingChuang;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kugou.kugou1002;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -497,11 +501,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Guangzhou KuGou Technology CO. , LTD/";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Guangzhou KuGou Technology CO. , LTD/";
 				INFOPLIST_FILE = YingChuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = YZX.YingChuang;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kugou.kugou1002;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
